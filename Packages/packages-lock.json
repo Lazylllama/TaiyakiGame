@@ -1,5 +1,22 @@
 {
   "dependencies": {
+    "com.daniel-geo.unityhackatime": {
+      "version": "https://github.com/daniel-geo/unity-hackatime.git#package",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5ac210a9a287428cb876ce9ea4ef14fe31e115b7"
+    },
+    "com.singularitygroup.hotreload": {
+      "version": "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.13.26",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "hash": "db8488330a97bc1b7c2c93541b832eb877d30f9f"
+    },
     "com.unity.burst": {
       "version": "2.0.0",
       "depth": 2,
@@ -68,6 +85,18 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.probuilder": {
+      "version": "6.1.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.shadergraph": "17.0.3",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.profiling.core": {
       "version": "1.0.3",
       "depth": 2,
@@ -107,6 +136,13 @@
     "com.unity.searcher": {
       "version": "4.9.5",
       "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.settings-manager": {
+      "version": "2.1.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
